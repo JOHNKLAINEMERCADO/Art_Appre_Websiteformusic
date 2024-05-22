@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArtInMusic</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: white;
+            margin-top: 180px; 
+            overflow-x: hidden;
+            background-image: url('design.jpg');
+            background-size: 100% 100%;
+            background-attachment: fixed;
+            background-position: left;
+            background-repeat: no-repeat;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #2b9c5e;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px 0; /* Increased padding */
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+            font-size: larger; /* Adjusted font size */
+            text-shadow: 2px 2px 4px rgba(78, 0, 0, 0.5);
+            box-shadow: 0px 5px 10px rgba(78, 0, 0, 0.5);
+            display: flex;
+            align-items: center;
+            justify-content: space-between; /* Adjusted alignment */
+            z-index: 1000;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            border-radius: 50px;
+            text-shadow: none;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: 500;
+            margin: 0 10px; 
+            padding: 8px 20px; 
+            border-radius: 100px; 
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #2b9c5e; /* Change background color on hover */
+            color: #fff; /* Change text color on hover */
+            cursor: pointer;
+        }
+
+        footer
+    {
+        background-color: #333;
+        color: #fff;
+        padding: 1em;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+    footer h3 {
+        font-size: 1em;
+        text-align: left;
+        margin-bottom: 20px;
+        font-weight: 400; 
+        margin-bottom: 10px;
+    }
+
+    .footer p{
+        font-style: italic;
+    }
+
+    .footer-contact {
+        display: flex;
+        align-items: center;
+    }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to ArtInMusic</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="genres.html">Genres</a></li>
+                <li><a href="appreciation.html">Appreciation</a></li>
+                <li><a href="learning.html">Learning</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <br><h2>Featured Content</h2>
+        <br><h3>Recent Articles</h3>
+        <ul>
+            <li><a href="https://www.billboard.com/lists/taylor-swift-eras-tour-surprise-songs/" target="_blank">Swifties! Discover all the surprise songs Taylor Swift has performed so far on The Eras Tour.</a></li>
+            <li><a href="https://www.classicfm.com/discover-music/periods-genres/film-tv/kris-bowers-bridgerton-score-hip-hop-ravel/" target="_blank">How Kris Bowers created 'the Bridgerton sound' - from hip-hop beats to Ravel inspiration.</a></li>
+        </ul>
+
+        <h3>Upcoming Events</h3>
+        <ul>
+            <li><a href="https://billboardphilippines.com/music/features/a-guide-to-2024-concerts-and-festivals-happening-in-the-philippines-seventeen-cup-of-joe-rivermaya-laufey-and-more/" target="_blank">Get ready to be broke, Philippines! Concerts from your favorite artists are coming your way! BINI, IU, Laufey... and more!</a></li>
+        </ul>
+
+        <h3>Popular Posts</h3>
+        <ul>
+            <br><li><a href="https://www.thisdayinmusic.com/" target="_blank">Got any dates in mind? Know what happened in the history of music here!</a></li>
+        </ul>
+    </section>
+</body>
